@@ -1,0 +1,325 @@
+body {
+  background: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.information {
+  color: white;
+  background-color: black;
+  padding: 10px 5px 10px 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.picrow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-header {
+  margin: 0px;
+  width: 100%;
+  background-image: url(https://c1.staticflickr.com/1/306/19767109789_d88d651eca_b.jpg);
+  background-position: center center;
+  height: 30vw;
+  background-size: cover;
+  position: relative;
+}
+
+.index-title {
+  font-size: 75px;
+  font-family: monospace;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 4%;
+}
+
+.index-subtitle {
+  font-size: 30px;
+  font-family: monospace;
+  position: absolute;
+  margin-left: 53%;
+  margin-top: 22%;
+}
+
+.list-stat-header {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: row;
+}
+
+.morro-stat {
+  position: absolute;
+  left: 0px;
+  top: 60vw;
+  background: tomato;
+  width: 50%;
+  height: 150px;
+  margin: 10px 0 0 0;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.pismo-stat {
+  position: absolute;
+  left: 50%;
+  top: 60vw;
+  background: tomato;
+  width: 50%;
+  height: 150px;
+  margin: 10px 0 0 0;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+#sumM {
+  position: absolute;
+  top: 16vh;
+  left: 12vw;
+}
+
+#sumP {
+  position: absolute;
+  top: 16vh;
+  right: 12vw;
+}
+
+.pic {
+  width: 50%;
+  height: 30vw;
+  display: inline-block;
+  background-size: cover;
+}
+
+.morropic {
+  background-image: url(http://i776.photobucket.com/albums/yy48/suzden/Cayucos/morrorock2.jpg);
+}
+
+.pismopic {
+  background-image: url(https://i.pinimg.com/originals/f5/91/bb/f591bb8e6ccd5e8042273f2db9591a11.jpg);
+}
+
+.what_wave_header h1 {
+  color: black;
+  text-align: center;
+}
+
+.what_wave_header h2 {
+  color: black;
+  text-align: center;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  float: left;
+}
+
+a {
+  display: block;
+  padding-right: 8px;
+}
+
+/* Navbar container */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px darken;
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: darkgray;
+  border-radius: 0px;
+}
+
+/* for live_waves */
+
+.img_data_blk {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.beach_pics {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.tables .container {
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+}
+
+#blurb {
+  margin: 1% 1% 10px 1%;
+}
+
+#live-header {
+  font-size: 35px;
+  margin: 0 0 10px 0;
+}
+
+#warning {
+  color: red;
+}
+
+.morro_bayBG {
+  background-image: url(https://www.morro-bay.ca.us/ImageRepository/Document?documentID=9062);
+}
+
+.pismo_beachBG {
+  background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/0a/26/eb/67/classic-california.jpg);
+}
+
+.cayucos_pierBG {
+  background-image: url(https://www.californiabeaches.com/wp-content/uploads/2016/06/Cayucos-Pier-at-state-beach-bryce14-5-1000x666.jpg);
+}
+
+.studio_driveBG {
+  background-image: url(https://storage.googleapis.com/idx-photos-gs.ihouseprd.com/CA-MRMLS/FR17208147/org/004.jpg);
+}
+
+.willowBG {
+  background-image: url(http://www.bigsurcalifornia.org/images2/pfeifferbeach.jpg);
+}
+
+#tablePrintM {
+  margin-right: 1.5%;
+}
+
+#tablePrintP {
+  margin-right: 1.5%;
+}
+
+#tablePrintC {
+  margin-right: 1.5%;
+}
+
+#tablePrintSD {
+  margin-right: 1.5%;
+}
+
+#tablePrintWC {
+  margin-right: 1.5%;
+}
+
+.display_blk {
+  height: 100%;
+  width: 50%;
+}
+
+.contact-info {
+  margin-left: 1%;
+  font-size: 150%;
+}

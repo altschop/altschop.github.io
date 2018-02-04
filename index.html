@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<script src="main.js"></script>
+<script src="j-query-3.3.1.js"></script>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <title>
+    RighTide
+  </title>
+</head>
+
+<body onLoad="allSum()">
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="what_wave.html">What Wave</a>
+    <div class="dropdown">
+      <button class="dropbtn">Surf Spots 
+      <i class="fa fa-caret-down"></i>
+    </button>
+      <div class="dropdown-content">
+        <a href="live_waves.html#Morro">Morro Bay</a>
+        <a href="live_waves.html#Pismo">Pismo Beach</a>
+        <a href="live_waves.html#Cayucos">Cayucos Pier</a>
+        <a href="live_waves.html">All Surf Spots</a>
+      </div>
+    </div>
+    <a href="contact_us.html">Contact Us</a>
+  </div>
+  <header href="https://c1.staticflickr.com/1/306/19767109789_d88d651eca_b.jpg" class="index-header">
+    <h1 class="index-title">
+      RighTide
+    </h1>
+    <h2 class="index-subtitle">
+      Surf Statistics and Data
+    </h2>
+  </header>
+  <div class="information">
+    Welcome to RighTide. We are a user-oriented team with a goal of providing an easy to use, organized tool for Surf enthusiasts. We hope to empower surfers with wave data in order to find the best tides out. Check down below for daily reports from Morro
+    Bay and Pismo Beach. Feel free to access the "Surf Spots" page for a more detailed listing. API powered by Spitcast.
+  </div>
+  <div class="picrow">
+    <div class="pic morropic"></div>
+    <div class="pic pismopic"></div>
+  </div>
+  <ul class="list-stat-header">
+    <div class="morro-stat">Morro Bay
+      <h1 id="sumM"></h1>
+    </div>
+    <div class="pismo-stat">Pismo Beach
+      <h1 id="sumP"></h1>
+    </div>
+  </ul>
+</body>
+
+</html>

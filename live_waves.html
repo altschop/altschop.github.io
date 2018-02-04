@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<script src="main.js"></script>
+<script src="j-query-3.3.1.js"></script>
+<html>
+<header>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <title>
+    Live Waves
+  </title>
+</header>
+
+<body onLoad="allLoad()">
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="what_wave.html">What Wave</a>
+    <div class="dropdown">
+      <button class="dropbtn">Surf Spots 
+      <i class="fa fa-caret-down"></i>
+    </button>
+      <div class="dropdown-content">
+        <a href="live_waves.html#Morro">Morro Bay</a>
+        <a href="live_waves.html#Pismo">Pismo Beach</a>
+        <a href="live_waves.html#Cayucos">Cayucos Pier</a>
+        <a href="live_waves.html">All Surf Spots</a>
+      </div>
+    </div>
+    <a href="contact_us.html">Contact Us</a>
+  </div>
+
+  <div class="tables">
+    <div class="container">
+      <h2 id="live-header">Daily Surf Forecast</h2>
+      <p  id="blurb"> All Data for Calendar Day</p>
+      <p  id="warning">Hours with Warnings appear in RED</p>
+    </div>
+    <h1 id="Morro" class="beach_title"> Morro Bay </h1>
+    <div class="img_data_blk">
+      <div class="beach_pics morro_bayBG"> </div>
+      <div id="tablePrintM" class="data"> </div>
+    </div>
+    <br/> <br/> <br/> <br/>
+
+    <h1 id="Pismo" class="beach_title"> Pismo Beach </h1>
+    <div class="img_data_blk">
+      <div class="beach_pics pismo_beachBG"> </div>
+      <div id="tablePrintP" class="data"> </div>
+    </div>
+    <br/> <br/> <br/> <br/>
+
+    <h1 id="Cayucos" class="beach_title"> Cayucos Pier </h1>
+    <div class="img_data_blk">
+      <div class="beach_pics cayucos_pierBG"> </div>
+      <div id="tablePrintC" class="data"> </div>
+    </div>
+    <br/> <br/> <br/> <br/>
+
+    <h1 id="Studio" class="beach_title"> Studio Drive </h1>
+    <div class="img_data_blk">
+      <div class="beach_pics studio_driveBG"> </div>
+      <div id="tablePrintSD" class="data"> </div>
+    </div>
+    <br/> <br/> <br/> <br/>
+
+    <h1 id="Willow" class="beach_title"> Willow Creek </h1>
+    <div class="img_data_blk">
+      <div class="beach_pics willowBG"> </div>
+      <div id="tablePrintWC" class="data"> </div>
+    </div>
+    <br/> <br/> <br/> <br/>
+
+  </div>
+
+</body>
+
+</html>
